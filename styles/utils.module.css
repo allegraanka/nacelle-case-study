@@ -1,0 +1,136 @@
+.heading2Xl {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 0;
+}
+
+.gradientHeading2Xl {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 0;
+  color: #761c30; /* fallback color */
+  background: -webkit-linear-gradient( #221335, #761c30);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.headingXl {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingLg {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+
+.headingMd {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.headingSm {
+  font-size: 26px;
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.colorInherit {
+  color: inherit;
+}
+
+.padding1px {
+  padding-top: 1px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  margin: 0 0 1.25rem;
+}
+
+.lightTextUppercase {
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  color: #00baff;
+}
+
+.largeLightTextUppercase {
+  font-size: 7rem;
+  font-weight: normal;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  color: #00baff;
+}
+
+.lightText{
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: none;
+  color: #666666;
+}
+
+.regularTextUppercase {
+  margin: 0 5px;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.descriptionText {
+  margin: 0;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 1.1px;
+}
+
+.aboutDescriptionText {
+  margin: 0;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 1.1px;
+  color: #FFFFFF;
+}
+
+.fullPageSection {
+  min-height: 100vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.halfPageSection {
+  min-height: 50vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nacelleCaseStudyTopicSection {
+  margin: 20px 0;
+  padding: 15px 0;
+}
