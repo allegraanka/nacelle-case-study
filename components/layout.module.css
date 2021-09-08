@@ -176,4 +176,8 @@
   .caseStudiesFlexContainer {
     flex-direction: column;
   }
+  .fullHeightBeginBackground {
+    background: #011b27;
+    color: #FFFFFF;
+  }
 }
