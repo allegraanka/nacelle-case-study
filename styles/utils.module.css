@@ -134,3 +134,9 @@
   margin: 20px 0;
   padding: 15px 0;
 }
+
+@media screen and (max-width: 600px) {
+  .largeLightTextUppercase {
+    font-size: 2rem;
+  }
+}
